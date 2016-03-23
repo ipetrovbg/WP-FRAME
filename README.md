@@ -20,5 +20,7 @@ done
 if you want some WordPress option just create new instance of IP_WP_OPTION class
 and call "echo $option->getOption('ping_sites');"
 
+Before that you must navigate to confiq/db.php and set your confiq data
+
 $option = new \IP_WP_FRAME_CORE\IP_WP_OPTIONS();
 echo $option->option('ping_sites');
