@@ -12,7 +12,7 @@ class Core
 
     private function __construct()
     {
-        \IP_WP_FRAME\Loader::registerNamespace('IP_WP_FRAME_CORE', get_stylesheet_directory() . '/framework/core');
+        \IP_WP_FRAME\Loader::registerNamespace('IP_WP_FRAME_CORE', get_stylesheet_directory() . '/frame/core');
     }
 
     /**

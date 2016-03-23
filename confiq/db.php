@@ -1,6 +1,6 @@
 <?php
 $cnf['localhost']   = "localhost";
-$cnf['username']    = "username";      /* username */
-$cnf['password']    = "password";          /* password */
-$cnf['db']          = "database"; /* database */
+$cnf['username']    = "ipetrov_admin";      /* username */
+$cnf['password']    = "Petrov89@";          /* password */
+$cnf['db']          = "ipetrov_ipetrovdev"; /* database */
 return $cnf;
