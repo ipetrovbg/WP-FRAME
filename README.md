@@ -2,6 +2,11 @@
 # INSTALATION
 require_once( path-to '/class/App.php');
 
+now navigate to class/Core and give path to core folder
+\IP_WP_FRAME\Loader::registerNamespace('IP_WP_FRAME_CORE', get_stylesheet_directory() . '/frame/core');
+
+in my case is "/frame/core"
+
 $app = \IP_WP_FRAME\App::getInstance();
 
 $app->run();
