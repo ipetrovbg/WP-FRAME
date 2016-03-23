@@ -10,7 +10,7 @@ namespace IP_WP_FRAME_CORE;
 //defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class Test
+class IP_WP_OPTIONS
 {
 
     private $optionName;
@@ -28,7 +28,7 @@ class Test
         }
     }
 
-    public function option($optionName = false)
+    public function getOption($optionName = false)
     {
         if( ! $optionName ){
             $optionName = $this->optionName;
