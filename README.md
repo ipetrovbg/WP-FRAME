@@ -21,7 +21,7 @@ new \IP_WP_FRAME_CORE\IP_WP_LOAD_STYLE( '/css/default.css', 'default', '1.0' );
 
 done
 
-# new ex:
+#ex:
 if you want some WordPress option just create new instance of IP_WP_OPTION class
 and call "echo $option->getOption('ping_sites');"
 
