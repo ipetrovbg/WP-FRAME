@@ -15,7 +15,7 @@ Then in core folder can create new class with namespace IP_WP_FRAME_CORE
 
 # ex:
 if you want to load style just write:
-just give path to your styleр give the name and give version of your style
+just give path to your style, give the name and give the version of your style
 
 new \IP_WP_FRAME_CORE\IP_WP_LOAD_STYLE( '/css/default.css', 'default', '1.0' );
 
