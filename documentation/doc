@@ -1,6 +1,6 @@
 ************************************    starting framework      *********************************************
 
-require_once(get_stylesheet_directory() . '/framework/class/App.php');
+require_once(path-to-class/App.php . '/frame/class/App.php');
 $app = \IP_WP_FRAME\App::getInstance();
 $app->run();
 *************************************************************************************************************
@@ -25,4 +25,15 @@ new \IP_WP_FRAME_CORE\IP_WP_CREATE_ADMIN_PAGE('Petar', 'petar', 'manage_options'
 **********************************     creating admin sub page      *****************************************
 
 new \IP_WP_FRAME_CORE\IP_WP_CREATE_ADMIN_SUB_PAGE('petar-option-page', 'new', 'new', 'manage_options', 'new-option-page', 'newpetar');
+*************************************************************************************************************
+
+*****************************************   create custom field     *****************************************
+
+$custom_field = new \IP_WP_FRAME_CORE\IP_WP_CUSTOM_FIELD();
+$custom_field->create_custom_field('field_title_new');
+*************************************************************************************************************
+
+*****************************************   get current ID /post or page ************************************
+
+$ID = \IP_WP_FRAME_CORE\IP_WP_CORE::getCurrentId();
 *************************************************************************************************************

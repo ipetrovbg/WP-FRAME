@@ -47,4 +47,14 @@ class IP_WP_CORE
 
     }
 
+    /**
+     * @return int
+     * */
+    public static function getCurrentId(){
+        $url = explode('?', 'http://'.$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+        $ID = url_to_postid($url[0]);
+
+        return $ID;
+    }
+
 }
