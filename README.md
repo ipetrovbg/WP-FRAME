@@ -1,6 +1,6 @@
 # Simple WP framework
 # INSTALATION
-require_once( path-to '/frame/class/App.php');
+require_once( path-to '/WP-FRAME-master/class/App.php');
 
 $app = \IP_WP_FRAME\App::getInstance();
 
